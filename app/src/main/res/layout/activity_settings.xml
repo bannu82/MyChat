@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+
+
+    <LinearLayout
+        android:id="@+id/settingsActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/toolbar"
+        android:layout_alignParentTop="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="15dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/toolbar"
+            android:outlineSpotShadowColor="@color/black"
+
+            android:src="?attr/actionModeCloseDrawable"
+            />
+        <TextView
+            android:id="@+id/chatUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:layout_gravity="center_vertical"
+            android:background="@color/toolbar"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingsActionBar"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/personsImage"
+            android:layout_marginTop="50dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/person"
+            />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ChangName"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="@color/screen"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/personNameIcn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/user_img4"
+                    android:padding="10dp"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/edit_pencil"
+                    android:layout_toEndOf="@+id/personNameIcn"
+                    android:text="Name"
+                    android:layout_above="@id/NameSetting"
+                    android:paddingLeft="10dp"
+                    android:textColor="#8696a0" />
+
+                <TextView
+                    android:id="@+id/NameSetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_vertical"
+                    android:layout_toStartOf="@+id/edit_pencil"
+                    android:textSize="17dp"
+                    android:layout_toEndOf="@+id/personNameIcn"
+                    android:text="Name"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white" />
+
+
+                <ImageView
+                    android:id="@+id/edit_pencil"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:padding="12dp"
+                    android:src="@drawable/edit" />
+
+
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

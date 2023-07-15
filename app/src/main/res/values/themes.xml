@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:tool="http://schemas.android.com/apk/res-auto">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyChat" parent="Theme.Material3.DayNight">
+
+
+        <item name="colorPrimary">@color/screen</item>
+        <item name="colorPrimaryVariant">@color/toolbar</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
+<!--        <item name="colorSecondary">@color/secScreen</item>-->
+<!--        <item name="colorSecondaryVariant">@color/secToolbar</item>-->
+        <item name="colorOnSecondary">@color/black</item>
+
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tool:targetApi ="l" > ?attr/colorOnSecondary</item>
+        <item name="android:navigationBarColor" tool:targetApi ="l" > ?attr/colorOnPrimary</item>
+
+    </style>
+
+    <style name="Theme.MyChat" parent="Base.Theme.MyChat" />
+</resources>
