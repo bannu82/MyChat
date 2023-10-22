@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:tool="http://schemas.android.com/apk/res-auto">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyChat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+                <item name="colorSecondary">@color/toolbar</item>
+                <item name="colorSecondaryVariant">@color/statusBar</item>
+                <item name="colorOnSecondary">@color/black</item>
+                <item name="cardBackgroundColor">@color/screen</item>
+                <item name="colorTertiary">@color/navigationBar</item>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tool:targetApi ="l" >?attr/colorSecondaryVariant</item>
+        <item name="android:navigationBarColor" tool:targetApi ="l" >?attr/colorTertiary</item>
+        <item name="android:background" tool:targetApi ="l" >?attr/cardBackgroundColor</item>
+        <item name="android:toolbarStyle" tool:targetApi ="l" >?attr/colorSecondary</item>
+        <item name="android:editTextColor" tool:targetApi ="l" >@color/white</item>
+        <item name="android:textColor" tool:targetApi ="l" >@color/white</item>
+
+
+    </style>
+    
+<style name="PBarTheme" >
+    <item name="colorAccent">@color/PBar</item>
+    
+</style>
+    
+</resources>

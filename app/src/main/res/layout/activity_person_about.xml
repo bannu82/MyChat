@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0b141a"
+
+    tools:context=".personAbout">
+
+    <RelativeLayout
+        android:id="@+id/basicDetail"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#111b21">
+        <RelativeLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:background="#111b21"
+            android:layout_height="40dp"
+            >
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="#111b21"
+                android:outlineSpotShadowColor="@color/black"
+                android:padding="11dp"
+                android:src="@drawable/back_btn" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#111b21"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_below="@id/LinearLayout"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/recvImg"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#111b21"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/person"
+                />
+
+            <TextView
+                android:id="@+id/recvName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#111b21"
+                android:layout_marginTop="10dp"
+                android:text="UserName"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/recvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:text="UserEmail"
+                android:textColor="#8797a0"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#111b21"
+
+                />
+
+            <TextView
+                android:id="@+id/OnlineStatus"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:text="UserStatus"
+                android:textColor="#8797a0"
+                android:background="#111b21"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#111b21"
+                >
+                <ImageView
+                    android:id="@+id/message_icn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/message"
+                    android:padding="12dp"
+
+                    android:background="#111b21"
+                    />
+
+                <ImageView
+                    android:id="@+id/call_icn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/call"
+                    android:padding="15dp"
+                    android:background="#111b21"
+                    android:layout_toRightOf="@+id/message_icn"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/videoCall_icn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/video_call"
+                    android:layout_marginLeft="20dp"
+                    android:padding="14dp"
+                    android:background="#111b21"
+                    android:layout_toRightOf="@+id/call_icn"
+                    />
+
+                <ImageView
+                    android:id="@+id/about_icn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/search"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
+                    android:padding="10dp"
+                    android:background="#111b21"
+                    android:layout_toRightOf="@+id/videoCall_icn"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Rec_Status"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/basicDetail"
+        android:background="#111b21"
+        android:text="Status"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/Rec_Status"
+        android:layout_alignParentBottom="true"
+        android:background="#111b21"
+        >
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

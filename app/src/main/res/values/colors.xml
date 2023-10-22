@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <color name="toolbar">#272727</color>
+<!--    <color name="toolbar">#202c33</color>-->
+    <color name="screen">#161616</color>
+    <color name="statusBar">#161616</color>
+    <color name="navigationBar">#161616</color>
+    <color name="hintcolor">#536169</color>
+    <color name="background" >#111b21</color>
+<!--    <color name="navigationBar">#161616</color>-->
+
+    <color name="secToolbar">#263238</color>
+    <color name="secScreen">#37474F</color>
+
+
+
+    <color name="green">#008069</color>
+    <color name="PBar">#009688</color>
+</resources>

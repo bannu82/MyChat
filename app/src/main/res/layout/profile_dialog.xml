@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/UserNameClick"
+        android:visibility="visible"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="#111b21"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Name"
+        android:paddingLeft="20dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/ProfileImage"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/UserNameClick"
+        android:background="@color/black"
+        android:layout_marginTop="0dp" />
+    <RelativeLayout
+        android:id="@+id/relativeLaout2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ProfileImage"
+        android:background="#111b21"
+        >
+        <ImageView
+            android:id="@+id/message_icn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/message"
+            android:padding="12dp"
+            android:background="#111b21"
+            />
+
+        <ImageView
+            android:id="@+id/call_icn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/call"
+            android:padding="15dp"
+            android:background="#111b21"
+            android:layout_toRightOf="@+id/message_icn"
+            />
+
+
+        <ImageView
+            android:id="@+id/videoCall_icn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/video_call"
+            android:layout_marginLeft="30dp"
+            android:padding="14dp"
+            android:background="#111b21"
+            android:layout_toRightOf="@+id/call_icn"
+            />
+
+        <ImageView
+            android:id="@+id/about_icn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/info"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:background="#111b21"
+            android:layout_toRightOf="@+id/videoCall_icn"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

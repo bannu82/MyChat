@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "57110038358",
+    "firebase_url": "https://authentication-47cdc-default-rtdb.firebaseio.com",
+    "project_id": "authentication-47cdc",
+    "storage_bucket": "authentication-47cdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57110038358:android:058e09067f9d1158f738f7",
+        "android_client_info": {
+          "package_name": "com.store.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57110038358-pjcude7cg9lqna5k41p1s9ftcg5uvfhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfGmC0C3GjW064iCgFpA65EKNMfS0YTpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57110038358-ialjbelpd8ft03pq3e8f59r8kn4aekqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57110038358:android:8d871dc31cd6f663f738f7",
+        "android_client_info": {
+          "package_name": "com.store.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57110038358-pjcude7cg9lqna5k41p1s9ftcg5uvfhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfGmC0C3GjW064iCgFpA65EKNMfS0YTpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57110038358-ialjbelpd8ft03pq3e8f59r8kn4aekqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57110038358:android:0d5c6f904694440ef738f7",
+        "android_client_info": {
+          "package_name": "com.store.recyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57110038358-pjcude7cg9lqna5k41p1s9ftcg5uvfhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfGmC0C3GjW064iCgFpA65EKNMfS0YTpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57110038358-ialjbelpd8ft03pq3e8f59r8kn4aekqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

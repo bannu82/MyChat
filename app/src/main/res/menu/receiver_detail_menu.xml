@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/view_user"
+        android:title="View User"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/block_user"
+        android:title="Block User (Not Working)"
+        android:visible="true"
+        />
+
+
+    <item
+        android:id="@+id/del_chat"
+        android:title="Delete Chat"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/Wallpaper"
+        android:title="Wallpaper"
+        android:visible="true"
+        />
+
+
+</menu>
